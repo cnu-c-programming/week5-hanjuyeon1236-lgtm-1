@@ -13,6 +13,6 @@ double_elements(arr, 5);
 
 for(int i = 0; i < 5; i++) {
 printf("%d\n", arr[i]);
-}
-return 0;
+  } 
+  return 0;
 }
