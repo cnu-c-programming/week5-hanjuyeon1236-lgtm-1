@@ -5,6 +5,7 @@ void double_elements( ) {
     *ptr = *ptr * 2;
     ptr++;
 }
+}
 
 int main() {
   int arr[5];
