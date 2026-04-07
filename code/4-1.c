@@ -3,7 +3,7 @@
 
 void echo() {
   char buf[5];
-  scanf( );
+  scanf( "%4s", buf);
   printf("%s\n", buf);
 }
 
