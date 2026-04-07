@@ -1,7 +1,13 @@
 #include <stdio.h>
 
 int sum_range(int *start, int *end) {
+  int total = 0;
 
+  while(start<end) {
+    total += *start;
+    start++;
+  }
+  return total;
 }
 
 int main() {
