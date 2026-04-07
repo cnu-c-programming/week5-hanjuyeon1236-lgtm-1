@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 void double_elements( ) {
-
+  for(int i = 0; i < size; i++) {
+    *ptr = *ptr * 2;
+    ptr++;
 }
 
 int main() {
