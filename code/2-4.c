@@ -3,10 +3,14 @@
 long my_strtol(char *str, char **endptr) {
   long res = 0;
 
-  while ( ) {
+  while ( *str >= '0' && *str <= 9) {
+    res = res * 10 + (*str - '0');
 
+    str++;
   }
-
+  if(endptr != NULL) {
+    *endptr = str;
+  }
   return res;
 }
 
