@@ -3,8 +3,9 @@
 
 void echo() {
   char buf[5];
-
+  if(fgets(buf, sizeof(buf), stdin) != NULL) {
   printf("%s\n", buf);
+}
 }
 
 int main() {
